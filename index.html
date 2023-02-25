@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <link href='images/favicon.ico' rel='shortcut icon'>
+  <link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/jquery.fancybox-1.3.4.css">
+  <script src="js/jquery-1.7.1.js" ></script>
+  <script src="js/scripts.js"></script>
+  <!--[if lt IE 9]>
+  	<script type="text/javascript" src="js/html5.js"></script>
+    <link rel="stylesheet" href="css/ie.css" type="text/css" media="all">
+  <![endif]-->
+	<!--[if lt IE 8]>
+		<div style=' clear: both; text-align:center; position: relative;'>
+			<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a>
+		</div>
+	<![endif]-->
+	<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css"/>
+	 <style>
+   .planTrip {
+  padding: 1rem;
+  top: 60px;
+}
+
+.planTrip h2 {
+  font-size: 1rem;
+  line-height: 1.2rem;
+}
+
+input {
+  display: block;
+  width: 60%;
+  padding: 0.375rem 0.75rem;
+  margin: 1rem 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  border: 1px solid #ced4da;
+}
+
+input[type="submit"] {
+  background-color: #d60e96;
+  border-color: #d60e96;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* For JSFiddle Example only */
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+</style>
+
+</head>
+<body>
+<div class="glob">
+<div class="page_spinner"><span></span></div>  
+<div class="main">
+<div class="menuHolder">
+     <nav class="menu">
+    	<ul id="menu">
+            <li>
+                <a href="#!/pagePortfolio">
+                    <div class="mText">ΑΡΧΙΚΗ ΣΕΛΙΔΑ</div>
+                </a>
+            </li> 
+	       	<li class="with_ul">
+                <a href="#!/pageAbout">
+                        <div class="mText">ΒΙΟΓΡΑΦΙΚΟ</div>
+                </a>
+                
+            </li>
+            <li>
+                <a href="#!/pageSeo_tools">
+                        <div class="mText">ΜΕΝΟΥ</div>
+                </a>
+            </li> 
+            <li>
+                <a href="#!/pageServices">
+                        <div class="mText">ΒΡΕΙΤΕ ΜΑΣ</div>
+                </a>
+            </li>
+            <li>
+                <a href="#!/pageBlog">
+                        <div class="mText">ΠΑΡΡΑΓΕΙΛΤΕ</div>
+                </a>
+            </li>
+            <li class="_last">
+                <a  href="#!/pageContact">
+                        <div class="mText">ΕΠΙΚΟΙΝΩΝΙΑ</div>
+                </a>
+            </li>
+	   </ul>
+    </nav>
+</div> 
+    <div class="center"> 
+    <!--header -->                   
+    <header>
+        <div class="logoHolder">
+            <h1><a class="hide_text" href="#!/pagePortfolio" id="logo">webbox</a></h1>
+        </div>
+        <div class="bgHolder1">
+            <div class="bg1"></div>
+            <div class="extra1"></div>
+        </div>          
+    </header>
+<!--header end-->             
+			<!--content -->
+			<article id="content">
+				<ul>
+                    <li id="pagePortfolio">
+                        <div class="scroll1">
+                                        <div class="_inner">
+                                            <div class="col1 marBot1">
+                                                <div class="col1 marBot1">
+                                                      <div id="DEMO-1" class="row" view-image>
+    <!-- Add Images To The Container -->
+    <div class="col">
+        <img src="./images/18.jpg" alt="jQueryScript.Net" class="img-fluid">
+    </div>
+    <div class="col">
+        <img src="./images/gallpic1.jpg" alt="jQueryScript.Net" class="img-fluid">
+    </div>
+	  <div class="col">
+        <img src="./images/unnamed(2).jpg" alt="jQueryScript.Net" class="img-fluid">
+    </div>
+	  <div class="col">
+        <img src="./images/unnamed3.jpg" alt="jQueryScript.Net" class="img-fluid">
+    </div>
+	  <div class="col">
+        <img src="./images/unnamed6.jpg" alt="jQueryScript.Net" class="img-fluid">
+    </div>
+	  <div class="col">
+        <img src="./images/unnamed7.jpg" alt="jQueryScript.Net" class="img-fluid">
+    </div>
+	  <div class="col">
+        <img src="./images/18.jpg" alt="jQueryScript.Net" class="img-fluid">
+    </div>
+    
+    <div class="col">
+        <!-- Ignore images using the no-view attribute -->
+        <!-- Thanks for watching. -->
+       
+    </div>
+  </div>
+                                                </div>
+                                            </div>   
+                                        </div>
+                                    </div>
+                                    <div class="scroll-btns">
+				                        <a href="#" data-type="scrollUp" class="downScroll"><img src="images/prevSprite.png" alt=""></a>
+				                        <a href="#" data-type="scrollDown" class="upScroll"><img src="images/nextSprite.png" alt=""></a>
+			                         </div>   
+                    </li>
+                    <li id="pageAbout">
+					   <div class="box contBg1">
+                            <div class="containerContent">
+                                <div class="col2">
+                                    <div class="_content1">
+                                        <figure class="_fig1">
+                                            
+                                        </figure>
+                                        <h2>ΒΙΟΓΡΑΦΙΚΟ</h2>
+                                        <p>Ο La Mano Caffe είναι το συνώνυμο της ποιότητας. Τόσο τα προϊόντα του όσο και οι επαγγελματικές μηχανές καφέ συντελούν για ένα άριστο αποτέλεσμα.
+
+Το ιδιαίτερο χαρμάνι του La Mano Caffe μπορείτε να τον απολαύσετε όλες τις ώρες της ημέρας στο 13 Espresso Room, συντροφιά με ένα snack για να μην μένετε ποτέ πεινασμένοι.
+
+Απολαυστικές μπαγκέτες, λαχταριστά κρουασάν σοκολάτας και δροσιστικές γρανίτες για τους μικρούς μας φίλους και όχι μόνο…</p>
+                                        
+                                    </div>
+                                </div>
+                                <div class="col2">
+                                    <div class="_content1">
+                                        <figure class="_fig1">
+                                            <img src="images/page2pic2.jpg" alt="">
+                                        </figure>
+                                        <h2></h2>
+                                        <p></p>
+                                             
+                                    </div>
+                                </div>
+                                <div class="col2">
+                                    <div class="_content1">
+                                        <figure class="_fig1">
+                                            <img src="images/page2pic3.jpg" alt="">
+                                        </figure>
+                                        <h2></h2>
+                                        <p></p>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                       </div>
+                    </li>  
+                    <li id="pageSeo_tools">
+					   <div class="box contBg1">
+                          <div class="containerContent">
+                                <div class="col2">
+                                    <div class="_content1">
+                                        <h2></h2>
+                                        <p>ΜΕΝΟΥ ΠΑΡΑΓΓΕΛΙΑΣ</p>
+                                            
+                                       <iframe src="subtotal.html" width="600" height="1400" scrolling="yes"></iframe>
+                                       <p>ΥΠΟΛΟΓΙΣΜΟΣ TIP</p>
+									   <iframe src="ΥΠΟΛΟΣΙΜΟΣ%20TIP.html" width="600" height="800" scrolling="yes"></iframe>
+
+
+
+
+                                  </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </li>  
+                     <li id="pageServices">
+					   <div class="box contBg2">
+                            <div class="containerContent">
+                                <h2>ΒΡΕΙΤΕ ΜΑΣ</h2>
+                                <div class="col2">
+                                    <div class="_content1">
+                                        <p><p>
+	<strong><span style="color:#000000;">"13 Espresso Room"<br>
+	Κολοκοτρώνη 13, Λαμία<br>
+	Delivery <span class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql lr9zc1uh a8c37x1j keod5gw0 nxhoafnm aigsh9s9 d3f4x2em fe6kdd0r mau55g9w c8b282yb iv3no6db jq4qci2q a3bd9o3v knj5qynh oo9gr5id hzawbc8m" dir="auto"><span class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql lr9zc1uh jq4qci2q a3bd9o3v knj5qynh oo9gr5id">2231038823</span></span></span></strong><br>
+	<span style="color:#000000;">Ώρες λειτουργίας: <strong>Δευτέρα - Παρασκευή 7:00-21:00 &amp; Σάββατο 7:00-15:00<br>
+	Facebook: <a href="https://www.facebook.com/13espressoroom" target="_blank"><font color="black">13 Espresso Room</font></a></strong></span><br>
+	<span style="color:#000000;"><strong>Instagram:</strong></span> <strong><a href="https://www.instagram.com/13_espresso_room/" target="_blank"><font color="black">13_espresso_room</font></a></strong></p></p>
+                                    </div>
+                                </div>
+                                <div class="col2">
+                                    <div class="_content1">
+                                       
+                                    </div>
+                                </div>
+                                <div class="col2">
+                                    <div class="_content1">
+                                       
+                                    </div>
+                                </div>     
+                            </div>
+                       </div>	
+					</li>
+                    <li id="pageBlog">
+					   <div class="box contBg3">
+                          <div class="containerContent">   
+                                <div class="col3">
+                                    <div class="_content2">
+                                        <h2>ΠΑΡΑΓΓΕΙΛΤΕ</h2>
+                                        <div class="col1 padBot1">
+                                            <div class="col6">
+                                                <div class="extra3"><span><br></span></div>
+                                                <div class="col7 marTop1">
+                                                    <p class="leftAlign padNull"></p>
+                                                </div>
+                                            </div>
+                                            <span class="textStyle1"></span>
+                                        </div>
+                                        <div class="col1">
+                                            <figure class="_fig2">
+                                                
+                                            </figure>
+                                            <div class="col5 leftAlign marTop2">
+                                                <p class="leftAlign padBot2"><iframe height="2944" title="Embedded Wufoo Form" allowtransparency="true" frameborder="0" scrolling="yes" style="width:100%;border:none" sandbox="allow-popups-to-escape-sandbox allow-top-navigation allow-scripts allow-popups allow-forms allow-same-origin" src="https://lepa.wufoo.com/embed/zdf6euz1mufxi9/"> <a href="https://lepa.wufoo.com/forms/zdf6euz1mufxi9/">Fill out my Wufoo form!</a> </iframe></p>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col4">
+                                    <div class="_content3">
+                                        <h2></h2>
+                                            <ul class="_list1 mar2">
+                                            	
+                                            </ul>
+                                        <h2></h2>
+                                        <ul class="_list1">
+                                            	
+                                            </ul>    
+                                    </div>
+                                </div>
+                          </div>
+                        </div>
+                    </li> 
+                    <li id="pageContact">
+					   <div class="box contBg4">
+                         <div class="containerContent">
+                                <div class="col1">
+                                    <div class="col8">
+                                        <div class="_content4">
+                                            <h2>ΠΟΥ ΕΙΜΑΣΤΕ</h2>
+                                            <div class="col1 marBot2">
+                                                 
+                                            </div>
+                                            <div class="col6">
+                                                <p class="leftAlign">
+                                                    <div class="planTrip">
+   
+    <form action="https://www.google.com/maps" id="" target="_blank">
+      <fieldset style="width:600px;">
+        <div class="inner">
+		<h2>ΔΙΑΔΡΟΜΗ</h2>
+          <input aria-label="From Location Input" id="" name="saddr" placeholder="ΑΠΟ ΔΙΕΥΘΥΝΣΗ ΑΦΕΤΗΡΙΑΣ" type="text">
+          <input aria-label="To Location Input" id="" name="daddr" value="ΚΟΛΟΚΟΤΡΩΝΗ 13 ΛΑΜΙΑ" placeholder="ΠΡΟΣ ΔΙΕΥΘΥΝΣΗ ΑΦΙΞΗΣ" type="text">
+         <!--  <input id="" name="dirflg" type="hidden" value="r"> -->
+          <div>
+            <input type="submit" value="ΑΝΑΖΗΤΗΣΗ">
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col9">
+                                        <div class="_content5">
+                                            <h2>ΦΟΡΜΑ ΕΠΙΚΟΙΝΩΝΙΑΣ</h2>
+                                            <iframe height="944" title="Embedded Wufoo Form" allowtransparency="true" frameborder="0" scrolling="yes" style="width:100%;border:none" sandbox="allow-popups-to-escape-sandbox allow-top-navigation allow-scripts allow-popups allow-forms allow-same-origin" src="https://lepa.wufoo.com/forms/q1pw47s71ne6hak/"> <a href="https://lepa.wufoo.com/forms/q1pw47s71ne6hak/">Fill out my Wufoo form!</a> </iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                       </div>
+					</li>
+                   	<li id="pagePrivacy">
+                    	<div class="box contBg5">
+                           <div class="containerContent">
+                                <div class="col1">
+                                    <div class="_content6">
+                                        <h2>privacy policy</h2>
+                                        <p class="leftAlign">Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas tristique orci ac sem. Duis ultricies pharetra magna. Donec accumsan malesuada orci. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus.</p>
+                                        <p class="leftAlign">Quisque nulla. Vestibulum libero nisl, porta vel, scelerisque eget, malesuada at, neque. Vivamus eget nibh. Etiam cursus leo vel metus. Nulla facilisi. Aenean nec eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse sollicitudin velit sed leo. Ut pharetra augue nec augue. Nam elit magna, hendrerit sit amet, tincidunt ac, viverra sed, nulla. Donec porta diam eu massa. Quisque diam lorem, interdum vitae, dapibus ac, scelerisque vitae, pede. Donec eget tellus non erat lacinia fermentum. Donec in velit vel ipsum auctor pulvinar. Proin ullamcorper urna et felis.</p>
+                                        <p class="leftAlign">Vestibulum iaculis lacinia est. Proin dictum elementum velit. Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam congue fermentum nisl. Mauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi, aliquet sit amet, euismod in, auctor ut, ligula. Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis quis, lobortis dignissim, pulvinar ac, lorem. Vestibulum sed ante. Donec sagittis euismod purus.</p>
+                                        <p class="leftAlign padNull">E-mail: <a class="_link2" href="mailto:">info@demolink.org</a></p>
+                                    </div>
+                              </div> 
+                            </div>
+                        </div>
+                    </li>
+                	<li id="pageMore">
+                    	<div class="box contBg5">
+                           <div class="containerContent">
+                                <div class="col1">
+                                    <div class="_content6">
+                                        <h2>lorem ipsum</h2>
+                                        <p class="leftAlign">Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas tristique orci ac sem. Duis ultricies pharetra magna. Donec accumsan malesuada orci. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus.</p>
+                                        <p class="leftAlign">Quisque nulla. Vestibulum libero nisl, porta vel, scelerisque eget, malesuada at, neque. Vivamus eget nibh. Etiam cursus leo vel metus. Nulla facilisi. Aenean nec eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse sollicitudin velit sed leo. Ut pharetra augue nec augue. Nam elit magna, hendrerit sit amet, tincidunt ac, viverra sed, nulla. Donec porta diam eu massa. Quisque diam lorem, interdum vitae, dapibus ac, scelerisque vitae, pede. Donec eget tellus non erat lacinia fermentum. Donec in velit vel ipsum auctor pulvinar. Proin ullamcorper urna et felis.</p>
+                                        <p class="leftAlign">Vestibulum iaculis lacinia est. Proin dictum elementum velit. Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam congue fermentum nisl. Mauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi, aliquet sit amet, euismod in, auctor ut, ligula. Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis quis, lobortis dignissim, pulvinar ac, lorem. Vestibulum sed ante. Donec sagittis euismod purus.</p>
+                                        <p class="leftAlign">Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas tristique orci ac sem. Duis ultricies pharetra magna. Donec accumsan malesuada orci. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus.</p>
+                                   </div>
+                              </div> 
+                            </div>
+                        </div>
+                    </li>
+				</ul>
+			</article>
+			<!--content end-->
+            <!--footer -->
+            <footer>
+				<!-- {%FOOTER_LINK} -->
+                <div class="mainFooter">
+                    <div class="privHold">
+                         <pre class="textPrivacy">&copy; 2012 | <a class="_link1" href="#!/pagePrivacy">Privacy Policy</a></pre>
+                    </div>
+                    <div class="followHolder">
+                        <ul>
+                            <li><a href="#"><img src="images/followIcon1.png" alt=""></a></li>
+                            <li><a href="#"><img src="images/followIcon2.png" alt=""></a></li>
+                            <li><a href="#"><img src="images/followIcon3.png" alt=""></a></li>
+                            <li><a href="#"><img src="images/followIcon4.png" alt=""></a></li>
+                            <li><a href="#"><img src="images/followIcon5.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+                 <div class="bgHolder2">
+                    <div class="extra2"></div>
+                    <div class="bg1"></div>
+                </div>
+			</footer>
+           	<!--footer end-->
+            </div>
+		</div>
+</div>
+<script>
+$(window).load(function() {	
+	$('.page_spinner').fadeOut();
+	$('body').css({overflow:'auto', 'min-height':'820px'})
+})
+</script>
+<!-- Load the view-image.js library -->
+<script src="https://www.jqueryscript.net/demo/Minimalist-Image-Zoom-Plugin-For-jQuery-ViewImage-js/view-image.js?v2.0.0"></script>
+<script>
+  // initialize the library and done
+  window.ViewImage && ViewImage.init('#DEMO-1 img, #DEMO-2 a');
+</script>
+
+</body>
+</html>

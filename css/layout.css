@@ -1,0 +1,22 @@
+.containerContent {
+    z-index: 1;
+    position: relative;
+    padding: 45px 0px 40px 0px;
+    display: inline-block;
+    width: 940px;
+}
+._content1{position: relative; padding: 0px 25px; display: inline-block; width: 260px; text-align: center;}   
+._content2{position: relative; padding: 0px 25px; display: inline-block; width: 640px; text-align: center;}   
+._content3{position: relative; padding: 0px 25px; display: inline-block; width: 200px; text-align: center;}   
+._content4{position: relative; padding: 0px 25px; display: inline-block; width: 365px; text-align: center;}   
+._content5{position: relative; padding: 0px 25px; display: inline-block; width: 475px; text-align: center;}   
+._content6{position: relative; padding: 0px 25px; display: inline-block; width: 890px; text-align: center;}   
+.col1{width: 100%; position: relative; float: left;}
+.col2{width: 312px; position: relative; float: left;}
+.col3{width: 690px; position: relative; float: left;}
+.col4{width: 250px; position: relative; float: left;}
+.col5{width: 296px; position: relative; float: left;}
+.col6{width: 260px; position: relative; float: left;}
+.col7{width: 180px; position: relative; float: left;}
+.col8{width: 415px; position: relative; float: left;}
+.col9{width: 525px; position: relative; float: left;}
